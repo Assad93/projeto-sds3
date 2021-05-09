@@ -6,7 +6,7 @@ import { formatLocalDate } from "utils/format";
 import { BASE_URl } from "utils/requests";
 
 const DataTable = () => {
-  const [activePage, setActivePage] = useState(8)
+  const [activePage, setActivePage] = useState(0)
   const [page, setPage] = useState<SalePage>({
     first: true,
     last: true,
